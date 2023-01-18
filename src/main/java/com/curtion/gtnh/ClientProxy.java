@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.curtion.gtnh;
 
 import cpw.mods.fml.common.event.*;
 
@@ -8,6 +8,7 @@ public class ClientProxy extends CommonProxy {
     // etc, and register them with the GameRegistry."
     public void preInit(FMLPreInitializationEvent event) {
         super.preInit(event);
+        Main.info("12345678790");
     }
 
     // load "Do your mod setup. Build whatever data structures you care about. Register recipes."

@@ -1,4 +1,4 @@
-package com.myname.mymodid;
+package com.curtion.gtnh;
 
 import cpw.mods.fml.common.event.*;
 
@@ -9,8 +9,7 @@ public class CommonProxy {
     public void preInit(FMLPreInitializationEvent event) {
         Config.syncronizeConfiguration(event.getSuggestedConfigurationFile());
 
-        MyMod.info(Config.greeting);
-        MyMod.info("I am " + Tags.MODNAME + " at version " + Tags.VERSION + " and group name " + Tags.GROUPNAME);
+        Main.info(Config.uuid);
     }
 
     // load "Do your mod setup. Build whatever data structures you care about. Register recipes."

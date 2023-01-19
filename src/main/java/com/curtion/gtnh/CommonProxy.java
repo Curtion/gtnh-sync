@@ -8,8 +8,6 @@ public class CommonProxy {
     // etc., and register them with the GameRegistry."
     public void preInit(FMLPreInitializationEvent event) {
         Config.syncronizeConfiguration(event.getSuggestedConfigurationFile());
-
-        Main.info(Config.uuid);
     }
 
     // load "Do your mod setup. Build whatever data structures you care about. Register recipes."
